@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <link rel="stylesheet" href="style.css">
+    <title>Tugas</title>
+</head>
+<body>
+    <nav>
+        <div class="nav-container">
+            <div class="logo" data-aos="zoom-in" data-aos-duration="1500">
+                Fajar <span>Halim</span>
+            </div>
+            <div class="links">
+                <div class="link" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="100"><a href="#">Home</a></div>
+                <div class="link" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="200"><a href="#">About</a></div>
+        </div>
+        <i class="fa-solid fa-bars hamburg" onclick="hamburg()"></i>
+    </div>
+        <div class="dropdown">
+            <div class="links">
+                <a href="#">Home</a>
+                <a href="#">About</a>
+                <i class="fa-solid fa-xmark cancel" onclick="cancel()"></i>
+            </div>
+        </div>
+    </nav>
+    <section>
+        <div class="main-container">
+            <div class="image" data-aos="zoom-out" data-aos-duration="3000">
+                <img src="f.jpg" alt="">
+            </div>
+            <div class="content">
+                <h1 data-aos="fade-left" data-aos-duration="1500" data-aos-delay="700">Hey I'm <span>Fajar</span></h1>
+                <div class="typewriter" data-aos="fade-right" data-aos-duration="1500" data-aos-delay="900">I'm a <span class="typewriter-text"></span><label for="">|</label></div>
+                <p data-aos="flip-down" data-aos-duration="1500" data-aos-delay="1100">Nama saya Fajar Halim, saya merupakan seorang mahasiswa Universitas Kuningan, Fakultas Ilmu Komputer, Prodi Teknik Informatika yang memiliki minat di bidang Ilmu komputer.</p>
+                <div class="social-links">
+                    <a href="https://github.com/fjrhlm" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="1300"><i class="fa-brands fa-github" target="_blank" rel="noopener noreferrer"></i></a>
+                    <a href="https://www.tiktok.com/@fajarxchr?is_from_webapp=1&sender_device=pc" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="1400" target="_blank"><i class="fa-brands fa-tiktok" rel="noopener noreferrer"></i></a>
+                    <a href="https://www.instagram.com/fjrhlm_/" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="1500"><i class="fa-brands fa-instagram" target="_blank" rel="noopener noreferrer"></i></a>
+                    <a href="https://x.com/piscsboyyy" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="1600"><i class="fa-brands fa-twitter" target="_blank" rel="noopener noreferrer"></i></a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--about selection start-->
+    <selection class="about-me-container" id="about-me-container">
+        <div class="content">
+            <div class="title"><span>About Me</span></div>
+            <div class="about-me-container">
+                <div class="image-container">
+                    <img src="f2.jpg" alt="Profile Picture"/>
+                </div>
+            </div>
+        </div>
+            <div class="content">
+                <p class="about-text">I'm <span>Fajar </span>and i'm <span>a baginner programer. </span> saya merupakan seorang mahasiswa Universitas Kuningan, Fakultas Ilmu Komputer, Prodi Teknik Informatika yang memiliki minat di bidang Ilmu komputer.</p>
+                <div class="info">
+                    <p class="exp">
+                        Nama:
+                        <span>Fajar Halim</span>
+                    </p>
+                    <p class="exp">
+                        Tempat Tanggal Lahir:
+                        <span>15 maret 2006</span>
+                    </p>
+                    <p class="exp">
+                        Alamat:
+                        <span>Kuningan, Jawa Barat</span>
+                    </p>
+                    <p class="exp">
+                        Email:
+                        <span>fajarhalim449@gmail.com</span>
+                    </p>
+                    <p class="exp">
+                        Nomor Telp:
+                        <span>089636975984</span>
+                    </p>
+                </div>
+            </div>
+    </selection>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init({offset:0});
+    </script>
+    <script src="script.js"></script>
+    <footer>
+        <div class="footer-content">
+          <h3>Fajar Halim</h3>
+          <ul class="socials">
+            <li><a href="https://github.com/fjrhlm"><i class="fa fa-github" target="_blank" rel="noopener noreferrer"></i> github</a></li>
+            <li><a href="https://www.tiktok.com/@fajarxchr?is_from_webapp=1&sender_device=pc" target="_blank" rel="noopener noreferrer"><i class="fa fa-tiktok"></i> Tiktok</a></li>
+            <li><a href="https://www.instagram.com/fjrhlm_/"><i class="fa fa-instagram" target="_blank" rel="noopener noreferrer"></i> Instagram</a></li>
+            <li><a href="https://x.com/piscsboyyy"><i class="fa fa-twitter" target="_blank" rel="noopener noreferrer"></i> Twitter</a></li>
+          </ul>
+        </div>
+        <div class="footer-bottom">
+          <p>&copy; 2024 Copyright | by Fajar</p>
+        </div>
+      </footer>
+      
+</body>
+</html>
